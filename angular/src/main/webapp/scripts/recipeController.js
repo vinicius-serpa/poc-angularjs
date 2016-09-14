@@ -1,0 +1,3 @@
+var recipeController = function($scope) {
+	
+}
