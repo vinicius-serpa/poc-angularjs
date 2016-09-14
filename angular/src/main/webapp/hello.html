@@ -1,0 +1,38 @@
+<!doctype html>
+<!-- activate angular framework -->
+<html ng-app>
+	<head>
+		<!-- import angular -->
+		<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+		
+		<!-- import js with functions -->
+		<script src="scripts/todo.js"></script>
+		
+		<title>POC Angular</title>		
+	</head>
+	
+	<body>
+		<!-- call js function -->
+		<div ng-controller="hello">
+		
+			Hello {{name}}
+			<hr/>
+			<label>Name</label>
+			
+			<input ng-model="typedName" placeHolder="type your name please" /><br/>
+			Hi {{typedName}}, <br/>
+			<br/>
+			<br/>
+			
+			<label>Quantity of products</label>
+			<input type="number" ng-model="qt" required="required" />
+			
+			<label>Price</label>
+			<input type="number" ng-model="price" required="required" />
+			
+			Total {{qt * price | currency}}
+		
+		</div>
+	</body>
+	
+</html>
