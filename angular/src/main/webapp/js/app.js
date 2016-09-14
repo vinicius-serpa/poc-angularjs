@@ -7,5 +7,6 @@ app.config(
 			.when("/", {templateUrl: "home.html"})
 			.when("/upper", {templateUrl: "upperfilter.html"})
 			.when("/serviceioc", {templateUrl: "serviceioc.html"})
-			.when("/watch", {templateUrl: "watch.html", controller: recipeController});
+			.when("/watch", {templateUrl: "watch.html", controller: recipeController})
+			.when("/locale", {templateUrl: "locale.html"});
 		});
