@@ -3,3 +3,4 @@ Angular Proof of Concepts
 
 - Hello World
 - Deep Linking
+- Locale
