@@ -10,3 +10,19 @@ app.config(
 			.when("/watch", {templateUrl: "watch.html", controller: recipeController})
 			.when("/locale", {templateUrl: "locale.html"});
 		});
+
+// service
+app.factory("UserService", function() {
+	
+	var users = ["Vinicius", "Rafael", "Ludmila"];
+	
+	return {
+		all: function() {
+			return users;
+		},
+		first: function() {
+			return users[0];
+		}
+	}
+	
+});

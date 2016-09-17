@@ -5,6 +5,16 @@
 <title>Insert title here</title>
 </head>
 <body>
-Service IOC
+
+	<div ng-controller="recipeController">
+		<ul ng-repeat="user in users">
+			<li>{{user}}</li>
+		</ul>
+	</div>
+	
+	<div ng-controller="anotherController">
+			Fist User: {{firstUser}}
+	</div>
+
 </body>
 </html>
