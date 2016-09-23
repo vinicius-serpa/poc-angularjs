@@ -1,5 +1,5 @@
 # poc-angular
-Angular Proof of Concepts
+Angular 1 Proof of Concepts
 
 - Hello World
 - Deep Linking
