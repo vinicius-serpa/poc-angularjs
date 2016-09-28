@@ -5,3 +5,4 @@ Angular 1 Proof of Concepts
 - Deep Linking
 - Locale
 - Dependecy Injection
+- Filter
