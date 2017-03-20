@@ -1,5 +1,5 @@
-# poc-angular
-Angular 1 Proof of Concepts
+# poc-angularjs
+AngularJS Proof of Concepts
 
 - Hello World
 - Deep Linking
